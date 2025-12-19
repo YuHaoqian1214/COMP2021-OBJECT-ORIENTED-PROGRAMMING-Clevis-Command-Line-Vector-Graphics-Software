@@ -1,0 +1,12 @@
+cricle c 10 10 1
+circle c 10 10 2
+move c 1 1
+undo
+redo
+square s 2 2 5
+group g1 c s
+rectangle r 2 2 10 10
+group g1 r
+group g2 r
+group g3 g2 g1
+move g3 2 2
